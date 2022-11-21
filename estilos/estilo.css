@@ -1,0 +1,13 @@
+main{
+    background-color: rgb(128, 223, 199);
+    border: solid 1px;
+    padding: 20px;
+}
+
+.li_contato{
+    list-style: none;
+}
+.li_contato p{
+    display: inline-block;
+    margin-left: 10px;
+}
