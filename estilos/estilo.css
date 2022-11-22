@@ -76,7 +76,7 @@ a{
     margin-left: 10px;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 320px){
     main{
         padding: 10px;
     }
@@ -93,7 +93,7 @@ a{
         display: block;
         margin: 5px 10px;
     }
-    
+
     .li_contato p{
         margin-left: 0px;
     }
@@ -101,4 +101,6 @@ a{
     #secContato img{
         width: 10%;
     }
+
+
 }
