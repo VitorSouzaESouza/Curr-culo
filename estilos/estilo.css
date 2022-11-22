@@ -76,7 +76,7 @@ a{
     margin-left: 10px;
 }
 
-@media screen and (min-width: 720px){
+@media screen and (max-width: 720px){
     main{
         padding: 10px;
     }
@@ -92,6 +92,10 @@ a{
     .li_navegacao{
         display: block;
         margin: 5px 10px;
+    }
+    
+    .li_contato p{
+        margin-left: 0px;
     }
 
     #secContato img{
