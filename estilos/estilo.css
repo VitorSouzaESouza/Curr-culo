@@ -28,6 +28,7 @@ main{
 #ulNavegacao{
     text-align: center;
     background-color: rgb(119, 148, 190);
+    padding-left: 0px;
     padding-bottom: 20px;
 }
 
@@ -37,6 +38,7 @@ main{
 
 .li_navegacao{
     display: inline-block;
+    border: solid 1px;
     list-style: none;
     background-color: rgb(247, 243, 215);
     padding: 5px;
@@ -72,4 +74,27 @@ a{
 .li_contato p{
     display: inline-block;
     margin-left: 10px;
+}
+
+@media screen and (max-width: 320px){
+    main{
+        padding: 10px;
+    }
+    
+    .sec_curriculo{
+        padding: 1px 5px;
+    }
+    
+    #ulNavegacao{
+        padding-left: 0px;
+    }
+    
+    .li_navegacao{
+        display: block;
+        margin: 5px 10px;
+    }
+
+    #secContato img{
+        width: 10%;
+    }
 }
