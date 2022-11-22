@@ -1,13 +1,41 @@
 main{
+    text-align: justify;
+    text-indent: 10pt;
     background-color: rgb(128, 223, 199);
     border: solid 1px;
-    padding: 20px;
+    padding: 5px;
+
+}
+
+.curriculo{
+    padding: 10px;
+}
+
+.curriculo:hover{
+    background-color: rgb(201, 201, 201);
+    transition: 0.5s;
+}
+
+#secNome{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    border: solid 1px;
+    background-color: rgb(245, 244, 209);
+}
+
+a{
+    display: block;
 }
 
 .li_contato{
     list-style: none;
 }
+
 .li_contato p{
     display: inline-block;
     margin-left: 10px;
+
 }
