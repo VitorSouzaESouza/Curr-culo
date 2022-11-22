@@ -76,7 +76,7 @@ a{
     margin-left: 10px;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 800px){
     main{
         padding: 10px;
     }
@@ -92,6 +92,10 @@ a{
     .li_navegacao{
         display: block;
         margin: 5px 10px;
+    }
+
+    #minhaFoto{
+        width: 50%;
     }
 
     #ulContato{
