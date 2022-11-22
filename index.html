@@ -5,52 +5,77 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculo</title>
+  <title>sec_curriculo</title>
 </head>
 <body>
-  <main>
+  <nav>
+    <ul id="ulNavegacao">
+      <h3>Menu</h3>
+      <li class="li_navegacao"><a href="#secPerfil">Perfil</a></li>
+      <li class="li_navegacao"><a href="#secCompetencias">Principais Competências</a></li>
+      <li class="li_navegacao"><a href="#secFormacao">Formação Acadêmica</a></li>
+      <li class="li_navegacao"><a href="experiencias.html">Experiencias profissionais</a></li>
+      <li class="li_navegacao"><a href="#secContato">Contato</a></li>
+    </ul>
+  </nav>
 
-    <section id="secNome" class="curriculo">
+  <main>
+    <section id="secNome" class="sec_curriculo">
       <div id="divMinhaFoto">
         <img id="minhaFoto" src="imagens/Eu.jpeg" width="10%">
       </div>
-      <h1 id="meuNome">Vitor Souza e Souza</h1>
+      <div id="divMeuNome">
+        <h1 id="meuNome">Vitor Souza e Souza</h1>
+      </div>
     </section>
 
-    <section id="secPerfil" class="curriculo">
+    <section id="secPerfil" class="sec_curriculo">
       <div class="divTitulo">
         <h2>Perfil</h2>
       </div>
-      <p>Nome é Vitor Souza e Souza, tenho 27 anos, graduado em engenharia elétrica - eletrotécnica e estudante de Análise de desenvolvimento de sistemas, muita habilidade com números, bem assíduo e gosta muito de trabalhar em equipe</p>
-      <p>Busca uma oportunidade no mercado de trabalho para uma vaga de estágio para expandir os conhecimentos e mostrar para o mercado de trabalho as habilidades e crescer como profissional.</p>
+      <div class="divTexto">
+        <p>Nome é Vitor Souza e Souza, tenho 27 anos, graduado em engenharia elétrica - eletrotécnica e estudante de Análise de desenvolvimento de sistemas, muita habilidade com números, bem assíduo e gosta muito de trabalhar em equipe</p>
+        <p>Busca uma oportunidade no mercado de trabalho para uma vaga de estágio para expandir os conhecimentos e mostrar para o mercado de trabalho as habilidades e crescer como profissional.</p>
+      </div>   
     </section>
 
-    <section id="secCompetencias" class="curriculo">
-      <h2>Principais Competênias</h2>
-      <ul>
-        <li>Conhecimento em circuitos eletrônicos;</li>
-        <li>Conhecimento em instalações elétricas residências;</li>
-        <li>Conhecimento em acionamento de máquinas elétricas;</li>
-        <li>Conhecimento intermediário em linguagem de programação Python;</li>
-        <li>Conhecimento básico em desenvolmento web e ferramentas HTML, CSS e Javascript.</li>
-      </ul>
+    <section id="secCompetencias" class="sec_curriculo">
+      <div class="divTitulo">
+        <h2>Principais Competênias</h2>
+      </div>
+      <div class="divTexto">
+        <ul>
+          <li>Conhecimento em circuitos eletrônicos;</li>
+          <li>Conhecimento em instalações elétricas residências;</li>
+          <li>Conhecimento em acionamento de máquinas elétricas;</li>
+          <li>Conhecimento intermediário em linguagem de programação Python;</li>
+          <li>Conhecimento básico em desenvolmento web e ferramentas HTML, CSS e Javascript.</li>
+        </ul>
+      </div>
     </section>
 
-    <section id="secFormacao"  class="curriculo">
-      <h2>Formação Acadêmica</h2>
-      <p>Graduação em engenharia elétrica - eletrotécnica na Universidade Federal do Amazonas (UFAM); cursando análise e desenvolvimento de sistemas.</p>
-      <a href="experiencias.html">Experiencias profissionais</a>
+    <section id="secFormacao"  class="sec_curriculo">
+      <div class="divTitulo">
+        <h2>Formação Acadêmica</h2>
+      </div>
+      <div class="divTexto">
+        <p>Graduação em engenharia elétrica - eletrotécnica na Universidade Federal do Amazonas (UFAM); cursando análise e desenvolvimento de sistemas.</p>
+        <a href="experiencias.html">Experiencias profissionais</a>
+      </div>
     </section>
 
-    <section id="secContato" class="curriculo">
-      <h2>Contato</h2>
-      <ul id="ul_contato">
-        <li class="li_contato"><img src="imagens/localizacao.jpg" width="2%"><p>Perimetral, Parque 10, Manaus</p></li>
-        <li class="li_contato"><img src="imagens/whatsapp.jpg" width="2%"><p>(92) 98100-2310</p></li>
-        <li class="li_contato"><img src="imagens/mensagem.jpg" width="2%"><p>vitor.souza951@gmail.com</p></li>
-      </ul>
+    <section id="secContato" class="sec_curriculo">
+      <div class="divTitulo">
+        <h2>Contato</h2>
+      </div>
+      <div class="divTexto">
+        <ul id="ul_contato">
+          <li class="li_contato"><img src="imagens/localizacao.jpg" width="2%"><p>Perimetral, Parque 10, Manaus</p></li>
+          <li class="li_contato"><img src="imagens/whatsapp.jpg" width="2%"><p>(92) 98100-2310</p></li>
+          <li class="li_contato"><img src="imagens/mensagem.jpg" width="2%"><p>vitor.souza951@gmail.com</p></li>
+        </ul>
+      </div>
     </section>
-
   </main>
 </body>
 </html>
